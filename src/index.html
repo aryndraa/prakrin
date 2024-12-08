@@ -15,14 +15,23 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Header Start -->
-    <header class="px-24 py-5 flex items-center justify-center">
+    <header
+      class="px-24 py-5 flex items-center justify-center fixed z-50 top-0 left-0 right-0"
+    >
       <nav
-        class="flex gap-8 border border-neutral-400 bg-white/40 px-10 py-4 rounded-full"
+        class="flex gap-8 border border-neutral-400 bg-white/40 backdrop-blur-lg px-10 py-4 rounded-full"
       >
         <a href="#home" class="font-medium hover:underline">Home</a>
+        <a href="#about" class="font-medium hover:underline">About</a>
         <a href="#company" class="font-medium hover:underline">Company</a>
         <a href="#internship" class="font-medium hover:underline">Internship</a>
         <a href="#proects" class="font-medium hover:underline">Projects</a>
@@ -30,6 +39,125 @@
     </header>
     <!-- Header End -->
 
-    <section id="home"></section>
+    <!-- Hero Start -->
+    <section
+      id="home"
+      class="px-28 min-h-screen flex items-center justify-center relative"
+    >
+      <div class="text-center">
+        <h1 class="text-3xl mb-6">-Praktek Kerja Lapangan-</h1>
+        <h2
+          class="text-7xl font-semibold mb-6 border-b pb-4 border-neutral-600"
+        >
+          Timedoor Indonesia
+        </h2>
+        <h3 class="text-xl mb-12">
+          I Putu Mahendra Arya Valentino / XI RPL 3 / 18
+        </h3>
+        <div class="flex justify-center">
+          <a
+            href="#about"
+            class="border px-6 py-3 rounded-full border-neutral-600 flex items-center gap-2 w-fit hover:bg-neutral-900 hover:text-white transition"
+          >
+            <span class="text-xl flex items-center">
+              <i class="bx bx-mouse"></i>
+            </span>
+            Scroll Down
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Hero End -->
+
+    <!-- About Start -->
+    <section
+      id="about"
+      class="px-24 py-12 flex justify-between items-center gap-24"
+    >
+      <div class="flex-1">
+        <div class="flex items-center mb-4">
+          <img src="assets/star.svg" alt="" />
+          <div class="w-16 h-[1px] bg-black mx-2"></div>
+          <span class="">Know me more</span>
+        </div>
+        <div class="border-b pb-2 mb-6 border-neutral-600">
+          <h1 class="text-3xl mb-4">Hi There, I'am</h1>
+          <h2 class="text-6xl font-medium mb-4">Mahendra Arya</h2>
+          <h3 class="text-4xl mb-4">WEB & API Developer</h3>
+        </div>
+        <p class="text-justify text-lg mb-16">
+          Saya adalah seorang siswa yang menekuni Software Engginer tepatnya
+          dalam pengembangan website dan API. Keahlian saya berfokus pada
+          pengembangan sistem website hingga ke pengembangan interface suatu
+          website.
+        </p>
+        <div>
+          <a
+            href="#skill"
+            class="border px-6 py-3 text-lg rounded-full border-neutral-600 hover:bg-neutral-900 hover:text-white transition"
+            >Tech Stack</a
+          >
+        </div>
+      </div>
+      <div class="w-[45%]">
+        <img src="assets/profile.jpg" alt="" class="w-full" />
+      </div>
+    </section>
+
+    <section
+      id="skill"
+      class="my-16 mx-24 p-12 px-12 bg-neutral-950 rounded-lg"
+    >
+      <div class="flex items-center mb-8 gap-4">
+        <span class="text-lg text-white capitalize"
+          >I have worked with these several technologies</span
+        >
+        <div class="w-full h-[1px] bg-white/20 mx-2"></div>
+      </div>
+      <div class="px-14 py-10">
+        <ul class="grid grid-cols-4 gap-12">
+          <li class="text-white flex items-center gap-4 text-xl font-medium">
+            <img src="assets/figma-logo 1.svg" alt="" class="w-12" />
+            Figma
+          </li>
+          <li class="text-white flex items-center gap-4 text-xl font-medium">
+            <img src="assets/tailwind-svgrepo-com 1.svg" alt="" class="w-12" />
+            Tailwind
+          </li>
+          <li class="text-white flex items-center gap-4 text-xl font-medium">
+            <img src="assets/logo-js 1.svg" alt="" class="w-16" />
+            Javascipt
+          </li>
+          <li class="text-white flex items-center gap-4 text-xl font-medium">
+            <img src="assets/react-svgrepo-com 1.svg" alt="" class="w-12" />
+            React JS
+          </li>
+          <li class="text-white flex items-center gap-4 text-xl font-medium">
+            <img src="assets/next-js 1.svg" alt="" class="w-12" />
+            NEXT JS
+          </li>
+          <li class="text-white flex items-center gap-4 text-xl font-medium">
+            <img src="assets/laravel 1 (1) 1.svg" alt="" class="w-12" />
+            Laravel
+          </li>
+          <li class="text-white flex items-center gap-4 text-xl font-medium">
+            <img src="assets/mysql 1.svg" alt="" class="w-12" />
+            MySQL
+          </li>
+          <li class="text-white flex items-center gap-4 text-xl font-medium">
+            <img
+              src="assets/postman-icon-svgrepo-com 1.svg"
+              alt=""
+              class="w-12"
+            />
+            Postman
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Company Start -->
+    <!-- Company End -->
   </body>
 </html>
