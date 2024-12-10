@@ -34,7 +34,7 @@
         <a href="#about" class="font-medium hover:underline">About</a>
         <a href="#company" class="font-medium hover:underline">Company</a>
         <a href="#internship" class="font-medium hover:underline">Internship</a>
-        <a href="#proects" class="font-medium hover:underline">Projects</a>
+        <a href="#projects" class="font-medium hover:underline">Projects</a>
       </nav>
     </header>
     <!-- Header End -->
@@ -405,8 +405,8 @@
             </p>
           </div>
         </div>
-        <div class="mb-12">
-          <h2 class="text-3xl mb-4">Learning Path</h2>
+        <div class="mb-14">
+          <h2 class="text-3xl mb-6">Learning Path</h2>
           <ul class="grid grid-cols-3 gap-5">
             <li class="text-xl flex items-center gap-3">
               <span class="text-2xl flex">
@@ -477,10 +477,9 @@
           </ul>
         </div>
         <div>
-          <h2 class="text-3xl mb-6">Task Collection</h2>
           <div class="grid grid-cols-2">
             <div>
-              <h3 class="text-2xl mb-6">Projects</h3>
+              <h2 class="text-3xl mb-6">Projects</h2>
               <ul class="flex flex-col gap-4">
                 <li class="text-xl flex gap-2">
                   <span class="text-2xl flex"><i class="bx bx-task"></i></span>
@@ -497,7 +496,7 @@
               </ul>
             </div>
             <div>
-              <h3 class="text-2xl mb-6">Side Tasks</h3>
+              <h2 class="text-3xl mb-6">Side Tasks</h2>
               <ul class="flex flex-col gap-4">
                 <li class="text-xl flex gap-2">
                   <span class="text-2xl flex"><i class="bx bx-task"></i></span>
@@ -518,6 +517,164 @@
       </div>
     </section>
     <!-- Internship End -->
+
+    <!-- Project Start -->
+    <section id="projects" class="py-12 px-24">
+      <div class="flex items-center mb-4">
+        <img src="assets/star.svg" alt="" />
+        <div class="w-16 h-[1px] bg-black mx-2"></div>
+        <span class="">Project Overview</span>
+      </div>
+      <h1 class="text-5xl mb-12">Employee Management System</h1>
+      <div>
+        <div class="flex gap-24">
+          <div class="flex-1">
+            <div class="mb-12">
+              <h2 class="text-3xl mb-4">About Project</h2>
+              <p class="text-justify">
+                Sistem Pengelolaan Pegawai adalah sistem yang dapat membantu
+                suatu perusahaan mengorganisir berbagai aspek terkait pegawai.
+                Menghadirkan berbagai fitur yang sangat membantu perusahaan
+                dalam mengelola pegawainya, sebagai contoh pada sistem ini
+                terdapat fitur pengecekan total jam kerja para pegawai. Selain
+                terdapat fitur-fitur yang sangat efisien sistem ini juga
+                berbasis API, jadi sistem pengelolaan pegawai ini dapat
+                diintergrasikan diberbagai platform seperti WEB, APP, dll.
+              </p>
+            </div>
+            <div class="mb-12">
+              <h2 class="text-3xl mb-4">Tech Use</h2>
+              <div>
+                <ul class="ml-6 flex flex-col gap-2">
+                  <li class="list-disc text-lg">Laravel 11</li>
+                  <li class="list-disc text-lg">SQL</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="w-[40%]">
+            <img src="assets/Employee-Management.png" alt="" class="w-full" />
+          </div>
+        </div>
+
+        <div class="mb-12">
+          <h2 class="text-3xl mb-6">Features</h2>
+          <div class="flex gap-12">
+            <div class="flex-1">
+              <h3 class="text-2xl border-b pb-4 mb-4 border-neutral-600">
+                Admin Side
+              </h3>
+              <ul>
+                <li class="pb-4 mb-4 border-b border-neutral-400">
+                  <details>
+                    <summary class="text-xl">Auth</summary>
+                    <p class="mt-4 text-lg ml-6 text-neutral-500">
+                      Admin dapat login dan logout
+                    </p>
+                  </details>
+                </li>
+                <li class="pb-4 mb-4 border-b border-neutral-400">
+                  <details>
+                    <summary class="text-xl">CRUD Employees</summary>
+                    <p class="mt-4 text-lg ml-6 text-neutral-500">
+                      Admin dapat kendali pada pengelolaan pegawai seperti
+                      menambahkan pegawai, melihat jam kerja pegawai, mengedit
+                      data pegawai, dan menghpaus data pegawai
+                    </p>
+                  </details>
+                </li>
+                <li class="pb-4 mb-4 border-b border-neutral-400">
+                  <details>
+                    <summary class="text-xl">CRUD Category Activity</summary>
+                    <p class="mt-4 text-lg ml-6 text-neutral-500">
+                      Admin dapat mengelola data kategori aktivitas yang akan
+                      dikerjaakan pegawai
+                    </p>
+                  </details>
+                </li>
+                <li class="pb-4 mb-4 border-b border-neutral-400">
+                  <details>
+                    <summary class="text-xl">CRUD Departments</summary>
+                    <p class="mt-4 text-lg ml-6 text-neutral-500">
+                      Admin dapat mengelola data departemen pegawai, admin juga
+                      memiliki kendali penuh dengan departenmen.
+                    </p>
+                  </details>
+                </li>
+                <li class="pb-4 mb-4 border-b border-neutral-400">
+                  <details>
+                    <summary class="text-xl">Summary Employee</summary>
+                    <p class="mt-4 text-lg ml-6 text-neutral-500">
+                      Admin memiliki report data kerja pegawai perharinya,
+                      dengan begitu admin dapat melihat siapa pegawai dengan
+                      durasi waktu kerja paling sedikit dan siapa pegawai dengan
+                      durasi waktu paling rendah.
+                    </p>
+                  </details>
+                </li>
+              </ul>
+            </div>
+            <div class="flex-1">
+              <h3 class="text-2xl border-b pb-4 mb-4 border-neutral-600">
+                Employee Side
+              </h3>
+              <ul>
+                <li class="pb-4 mb-4 border-b border-neutral-400">
+                  <details>
+                    <summary class="text-xl">Auth</summary>
+                    <p class="mt-4 text-lg ml-6 text-neutral-500">
+                      Pegawai dapat melakukan login dengan akun yang telah
+                      dibuat oleh admin. Selain itu pegawaio juga dapat
+                      melakukan logout akun
+                    </p>
+                  </details>
+                </li>
+                <li class="pb-4 mb-4 border-b border-neutral-400">
+                  <details>
+                    <summary class="text-xl">CRUD Activity Record</summary>
+                    <p class="mt-4 text-lg ml-6 text-neutral-500">
+                      Pegawai dapat mengelola kegiatannya, seperti saat dia
+                      ingin memulai dan menyelesaikan tugas, melihat tugas yang
+                      ada, pegawai juga dapat mengedit report tugasnya namun dia
+                      tidak bisa mengedit report tugas hari sebelumnya, dan
+                      terakhir pegawai dapat menghapus record activitynya
+                    </p>
+                  </details>
+                </li>
+                <li class="pb-4 mb-4 border-b border-neutral-400">
+                  <details>
+                    <summary class="text-xl">Summary Activity</summary>
+                    <p class="mt-4 text-lg ml-6 text-neutral-500">
+                      Pegawai dapat melihat riwayat kerjanya pada tanggal
+                      tertentu. pegawai juga dapat melihat total jam kerjanya.
+                    </p>
+                  </details>
+                </li>
+                <li class="pb-4 mb-4 border-b border-neutral-400">
+                  <details>
+                    <summary class="text-xl">Personal Profile</summary>
+                    <p class="mt-4 text-lg ml-6 text-neutral-500">
+                      Pegawai dapat mengindentifikasi akunya dengan menambahkan
+                      profile picture
+                    </p>
+                  </details>
+                </li>
+                <li class="pb-4 mb-4 border-b border-neutral-400">
+                  <details>
+                    <summary class="text-xl">Reset Password</summary>
+                    <p class="mt-4 text-lg ml-6 text-neutral-500">
+                      Jikalau pegawai lupa dengan passowrd lamanya maka pegawai
+                      dapat mereset password dan membuat pasword baru.
+                    </p>
+                  </details>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Project Finish -->
 
     <script src="script.js"></script>
   </body>
